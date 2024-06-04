@@ -110,27 +110,22 @@ body {
     border-radius: 50%;
 }
 
-.cart.wrap {
+.cart-wrap {
     position: absolute;
     width: 350px;
-    height: 250px;
+    max-height: 150px;
     left: -260px;
     top: 50px;
     z-index: 30;
     border-radius: 10px;
-    background-color: var(--Grayish_blue);
+    background-color: var(--Light-grayish-blue);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    ;
 }
 
 .empty {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.divisor {
-    width: 100%;
 }
 
 .avatar {
