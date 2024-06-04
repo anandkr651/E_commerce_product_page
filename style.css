@@ -326,14 +326,15 @@ body {
         left: 0;
         top: 0;
         bottom: 0;
-        width: 100%;
+        width: 40%;
         z-index: 99;
         background-color: var(--White);
-        padding: 2rem;
-        gap: 10px;
         display: none;
     }
-
+    .list-item{
+        margin: 20px;
+        text-align: center;
+    }
     .active {
         display: block;
     }
@@ -394,7 +395,7 @@ body {
         flex-direction: column;
         margin-inline: 0;
     }
-    
+
     .header-right{
         margin-inline: 20px;
     }
