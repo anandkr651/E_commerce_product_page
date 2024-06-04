@@ -392,6 +392,11 @@ body {
 
     .header-section {
         flex-direction: column;
+        margin-inline: 0;
+    }
+    
+    .header-right{
+        margin-inline: 20px;
     }
 
     .price-section {
